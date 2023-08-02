@@ -1,0 +1,79 @@
+/* Normalize CSS to reset default browser styles */
+html, body, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the buttons horizontally */
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* Add space above the buttons for visual separation */
+}
+
+/* Style the Twitter button */
+.twitter-button {
+    background-color: #1DA1F2; /* Twitter blue color */
+    color: #fff; /* Text color: white */
+    font-size: 16px; /* Font size for the button text */
+    border-radius: 30px; /* Make the button rounded */
+    padding: 10px 20px; /* Add padding to make the button bigger */
+    cursor: pointer; /* Show a pointer cursor when hovering over the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect on background color change */
+}
+
+/* Apply style to the Twitter button on hover */
+.twitter-button:hover {
+    background-color: #1A91DA; /* Darker shade of Twitter blue on hover */
+}
+
+/* Apply style to the Twitter button on click */
+.twitter-button:active {
+    background-color: #0F5E98; /* Even darker shade of Twitter blue on click */
+}
+
+/* Style the Facebook button */
+.facebook-button {
+    background-color: #3b5998; /* Facebook blue color */
+    color: #fff; /* Text color: white */
+    font-size: 16px; /* Font size for the button text */
+    border-radius: 30px; /* Make the button rounded */
+    padding: 10px 20px; /* Add padding to make the button bigger */
+    cursor: pointer; /* Show a pointer cursor when hovering over the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect on background color change */
+}
+
+/* Apply style to the Facebook button on hover */
+.facebook-button:hover {
+    background-color: #38538a; /* Darker shade of Facebook blue on hover */
+}
+
+/* Apply style to the Facebook button on click */
+.facebook-button:active {
+    background-color: #293b66; /* Even darker shade of Facebook blue on click */
+}
+
+/* Style the LinkedIn button */
+.linkedin-button {
+    background-color: #0e76a8; /* LinkedIn blue color */
+    color: #fff; /* Text color: white */
+    font-size: 16px; /* Font size for the button text */
+    border-radius: 30px; /* Make the button rounded */
+    padding: 10px 20px; /* Add padding to make the button bigger */
+    cursor: pointer; /* Show a pointer cursor when hovering over the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect on background color change */
+}
+
+/* Apply style to the LinkedIn button on hover */
+.linkedin-button:hover {
+    background-color: #0c5a7c; /* Darker shade of LinkedIn blue on hover */
+}
+
+/* Apply style to the LinkedIn button on click */
+.linkedin-button:active {
+    background-color: #09425d; /* Even darker shade of LinkedIn blue on click */
+}
